@@ -141,9 +141,7 @@ footer a { text-decoration: none; }
   .map-story button small { text-align: right; }
   .gallery { columns: 2 145px; gap: .55rem; }
   .photo-card { margin-bottom: .55rem; }
-  .photo-card figcaption { position: static; opacity: 1; transform: none; padding: .7rem; background: #1a1e22; }
-  .stage:not(:nth-child(even)) .photo-card figcaption { background: #fff; color: var(--ink); }
-  .stage:not(:nth-child(even)) .photo-card span { color: var(--muted); }
+  .photo-card figcaption { display: none; }
   footer { flex-direction: column; }
   .lightbox[open] { grid-template-columns: 2.8rem 1fr 2.8rem; }
   .lightbox img { max-width: calc(100vw - 6rem); }

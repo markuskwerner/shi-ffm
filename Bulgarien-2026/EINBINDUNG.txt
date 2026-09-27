@@ -1,0 +1,13 @@
+Einbindung in shi-ffm.org
+=========================
+
+1. Den vollständigen Ordner "Bulgarien-2026" in den Hauptordner der Website kopieren.
+2. Im Menüpunkt "Touren" einen Unterpunkt mit folgendem Ziel ergänzen:
+
+   Bulgarien 2026  →  Bulgarien-2026/index.html
+
+Beispiel für den Link:
+
+   <a href="Bulgarien-2026/index.html">Bulgarien 2026</a>
+
+Die Seite funktioniert ohne Installation oder externe Bibliotheken.

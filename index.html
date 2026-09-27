@@ -73,6 +73,7 @@
     background: var(--blue); border-color: var(--blue); color: var(--cream);
   }
   nav ul { display: flex; gap: 2rem; list-style: none; }
+  nav ul li { position: relative; }
   nav ul a {
     color: rgba(236,231,221,0.6); text-decoration: none;
     font-family: 'Saira', sans-serif; font-weight: 600;
@@ -80,6 +81,23 @@
     transition: color 0.2s;
   }
   nav ul a:hover { color: var(--gold); }
+  nav .submenu {
+    position: absolute; top: calc(100% + 1rem); right: 0;
+    min-width: 190px; padding: 0.55rem;
+    background: var(--ink); border: 1px solid rgba(236,231,221,0.2);
+    border-top: 2px solid var(--gold); border-radius: 0 0 4px 4px;
+    box-shadow: 0 14px 35px rgba(0,0,0,0.3);
+    opacity: 0; visibility: hidden; transform: translateY(-6px);
+    transition: opacity 0.18s, transform 0.18s, visibility 0.18s;
+  }
+  nav li:hover .submenu, nav li:focus-within .submenu {
+    opacity: 1; visibility: visible; transform: translateY(0);
+  }
+  nav .submenu a {
+    display: block; padding: 0.6rem 0.7rem;
+    color: var(--cream); white-space: nowrap;
+  }
+  nav .submenu a:hover, nav .submenu a:focus { color: var(--gold); }
 
   /* HERO */
   .hero {
@@ -451,7 +469,12 @@
   <ul>
     <li><a href="Satanische Fersen.html"><span class="de">Geschichte</span><span class="en">History</span></a></li>
     <li><a href="#" style="opacity:0.4;cursor:default;pointer-events:none"><span class="de">Turniere</span><span class="en">Tournaments</span></a></li>
-    <li><a href="#" style="opacity:0.4;cursor:default;pointer-events:none"><span class="de">Touren</span><span class="en">Tours</span></a></li>
+    <li>
+      <a href="Bulgarien-2026/"><span class="de">Touren</span><span class="en">Tours</span></a>
+      <div class="submenu">
+        <a href="Bulgarien-2026/">Bulgarien 2026</a>
+      </div>
+    </li>
   </ul>
   <div class="lang-toggle">
     <button onclick="setLang('de')" id="btn-de" class="active">DE</button>
@@ -496,7 +519,7 @@
       <p class="tile-text"><span class="de">Jeden 1. Mai. Seit weit über dreißig Jahren. »Satanische Fersen« – ein Turnier, ein Wortspiel, eine Tradition.</span><span class="en">Every 1st May. For well over thirty years. »Satanic Heels« – a tournament, a pun, a tradition.</span></p>
     </div>
   </a>
-  <a class="tile" href="#touren">
+  <a class="tile" href="Bulgarien-2026/">
     <img src="DSC_0470 (2).JPG" alt="Touren">
     <div class="tile-body">
       <div class="tile-title"><span class="de">Touren</span><span class="en">Tours</span></div>

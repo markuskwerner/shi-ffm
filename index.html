@@ -457,7 +457,18 @@
     .atmo-grid { grid-template-columns: 1fr 1fr; }
     .atmo-grid .big { grid-column: span 2; }
     .history-grid { grid-template-columns: 1fr 1fr; }
-    nav ul { display: none; }
+    nav {
+      height: 96px; padding: 0.65rem 1rem 0.55rem; flex-wrap: wrap;
+      align-content: center; row-gap: 0.35rem;
+    }
+    nav ul {
+      display: flex; order: 3; width: 100%; justify-content: space-around;
+      gap: 0.5rem; padding-top: 0.3rem;
+      border-top: 1px solid rgba(236,231,221,0.18);
+    }
+    nav ul a { font-size: 0.68rem; color: var(--cream); }
+    nav .submenu { display: none; }
+    .hero { margin-top: 96px; }
   }
 
   </style>

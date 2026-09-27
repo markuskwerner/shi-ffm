@@ -22,7 +22,10 @@ for (const stage of stages) {
   section.innerHTML = `
     <header class="stage-heading">
       <div><span class="stage-number">ETAPPE 0${stage.id} · ${stage.dates}</span><h2>${stage.title}</h2></div>
-      <p class="stage-copy">${stage.copy}</p>
+      <div class="stage-intro">
+        <p class="stage-copy">${stage.copy}</p>
+        <a class="back-to-top" href="#reise"><span aria-hidden="true">↑</span> Zum Seitenanfang</a>
+      </div>
     </header>
     ${stage.id === 2 ? `
     <aside class="route-story" aria-labelledby="route-heading">

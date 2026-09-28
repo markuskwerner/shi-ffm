@@ -148,6 +148,12 @@ footer a { text-decoration: none; }
   .lightbox figcaption { flex-direction: column; }
 }
 
+/* Touch-Geräte können eine größere CSS-Breite melden als klassische Smartphones. */
+@media (hover: none), (pointer: coarse), (max-width: 760px) {
+  .photo-card figcaption,
+  .lightbox figcaption { display: none !important; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }

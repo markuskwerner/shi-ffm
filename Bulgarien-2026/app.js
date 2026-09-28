@@ -1,9 +1,9 @@
 const stages = [
-  { id: 1, title: 'Ankunft & Sofia', dates: '5.–7. September', copy: 'Von Frankfurt nach Sofia: Anflug, Ankommen bei Freunden und ein erster Streifzug durch die bulgarische Hauptstadt.' },
+  { id: 1, title: 'Ankunft & Sofia', dates: '6.–7. September', copy: 'Von Frankfurt nach Sofia: Anflug, Ankommen bei Freunden und ein erster Streifzug durch die bulgarische Hauptstadt.' },
   { id: 2, title: 'Pirin-Gebirge', dates: '8.–11. September', copy: 'Mehrere Tage zwischen Berghütten, Seen und Gipfeln. Lange Wege, klare Luft und Abende in großer Runde.' },
   { id: 3, title: 'Plovdiv & weiter ostwärts', dates: '12.–13. September', copy: 'Historische Orte, Zwischenstopps und der Übergang vom Gebirge in Richtung Schwarzes Meer.' },
   { id: 4, title: 'Am Schwarzen Meer', dates: '14.–17. September', copy: 'Strände, Felsen und Fahrradtouren an der Küste – mit Sprüngen ins Wasser und bulgarischem Schlammprogramm.' },
-  { id: 5, title: 'Abschied am Meer', dates: '18. September', copy: 'Ein letzter Sonnenaufgang, Frühstück am Wasser und die ruhigen Stunden vor der Heimreise.' }
+  { id: 5, title: 'Abschied am Meer', dates: '18.–19. September', copy: 'Ein letzter Sonnenaufgang, Frühstück am Wasser und die ruhigen Stunden vor der Heimreise.' }
 ];
 
 const root = document.querySelector('#gallery-root');

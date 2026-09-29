@@ -26,6 +26,20 @@ for (const stage of stages) {
       <p class="stage-copy">${stage.copy}</p>
     </header>
     ${stage.id === 2 ? `
+    <details class="pirin-map-toggle">
+      <summary>
+        <span aria-hidden="true">⌖</span>
+        <span class="map-label-closed">Unser Wandergebiet im Pirin anzeigen</span>
+        <span class="map-label-open">Unser Wandergebiet im Pirin schließen</span>
+      </summary>
+      <figure>
+        <button type="button" data-map-src="maps/pirin-map.jpg" data-map-title="Unser Wandergebiet im Pirin" data-map-note="Topografische Karte mit Bezbog-See, Popovo-See und umliegenden Gipfeln">
+          <img src="maps/pirin-map.jpg" alt="Topografische Karte des Pirin-Gebirges mit Bezbog-See, Popovo-See und umliegenden Gipfeln" loading="lazy">
+        </button>
+        <figcaption>Unser Wandergebiet im Pirin · Zum Vergrößern anklicken</figcaption>
+      </figure>
+    </details>` : ''}
+    ${stage.id === 2 ? `
     <aside class="route-story" aria-labelledby="route-heading">
       <header class="route-heading">
         <span class="stage-number">VIER WANDERROUTEN</span>

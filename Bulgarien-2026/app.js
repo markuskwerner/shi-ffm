@@ -20,7 +20,7 @@ for (const stage of stages) {
   section.className = 'stage';
   section.id = `etappe-${stage.id}`;
   section.innerHTML = `
-    <a class="back-to-top" href="#reise"><span aria-hidden="true">↑</span> Zurück zum Seitenanfang</a>
+    <a class="back-to-top" href="#etappen"><span aria-hidden="true">↑</span> Zurück zur Navigation</a>
     <header class="stage-heading">
       <div><span class="stage-number">ETAPPE 0${stage.id} · ${stage.dates}</span><h2>${stage.title}</h2></div>
       <p class="stage-copy">${stage.copy}</p>

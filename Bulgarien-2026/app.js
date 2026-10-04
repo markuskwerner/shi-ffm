@@ -57,19 +57,19 @@ for (const stage of stages) {
         </article>
         <article>
           <div class="route-meta"><b>02</b><time datetime="2026-09-09">9. September</time></div>
-          <button type="button" data-map-src="routes/route-03.png" data-map-title="Route 2 · Hochroute südlich des Tevno-Sees" data-map-note="9. September · Rund um den südlichen Pirin-Kamm">
-            <img src="routes/route-03.png" alt="Wanderroute über den Hochkamm südlich des Tevno-Sees" loading="lazy">
+          <button type="button" data-map-src="routes/route-03.png" data-map-title="Route 2 · Besteigung des Kamenitza (2.822 m)" data-map-note="9. September · Von der Tevno-Ezero-Hütte auf den Kamenitza">
+            <img src="routes/route-03.png" alt="Aufstiegsroute von der Tevno-Ezero-Hütte auf den Kamenitza" loading="lazy">
           </button>
-          <h4>Hochroute südlich des Tevno-Sees</h4>
-          <p>Eine kompakte Querung durch das felsige Hochgebirge.</p>
+          <h4>Besteigung des Kamenitza (2.822 m)</h4>
+          <p>Von der Tevno-Ezero-Hütte auf den 2.822 Meter hohen Gipfel.</p>
         </article>
         <article>
           <div class="route-meta"><b>03</b><time datetime="2026-09-09">9. September</time></div>
-          <button type="button" data-map-src="routes/route-01.png" data-map-title="Route 3 · Zum Tevno-See" data-map-note="9. September · Ziel Tevno-See">
-            <img src="routes/route-01.png" alt="Wanderroute mit Ziel am Tevno-See" loading="lazy">
+          <button type="button" data-map-src="routes/route-01.png" data-map-title="Route 3 · Abstieg zur Tevno-Ezero-Hütte" data-map-note="9. September · Rückweg vom Kamenitza zur Hütte">
+            <img src="routes/route-01.png" alt="Abstiegsroute vom Kamenitza zurück zur Tevno-Ezero-Hütte" loading="lazy">
           </button>
-          <h4>Zum Tevno-See</h4>
-          <p>Die zweite Route des Tages endet am Tevno-See.</p>
+          <h4>Abstieg zur Tevno-Ezero-Hütte</h4>
+          <p>Der Rückweg vom Kamenitza zur Hütte auf derselben Route.</p>
         </article>
         <article>
           <div class="route-meta"><b>04</b><time datetime="2026-09-11">11. September</time></div>
